@@ -115,6 +115,9 @@ export async function POST(webRequest) {
       const image = files.image
       const tempPath = image[0].filepath
       const userImageUrl = await uploadImage(image, username);
+      if(userImageUrl == null){
+        reject(NextResponse.json({ url:null, error: 'Failed to store images in file server' }));
+      }
       try {
         const result = await openai.images.edit({
           image: require('fs').createReadStream(tempPath),
@@ -133,6 +136,10 @@ export async function POST(webRequest) {
         const imageBuffer = Buffer.from(imageResponse.data, 'binary')
         const fileName = `${username}-${Date.now()}-output.png`
         const uploadedOutputUrl = await uploadImageBufferToSupabase(imageBuffer, fileName)
+        if(uploadedOutputUrl == null){
+          reject(NextResponse.json({ url:null, error: 'Failed to store images in file server' }));
+        }
+
         //insert into database
         const dbresult = await insertUserData({
           username: username,
@@ -140,9 +147,13 @@ export async function POST(webRequest) {
           userimageurl: userImageUrl,
           outputimageurl: uploadedOutputUrl,
         })
-        
-        resolve(NextResponse.json({ url: result.data[0].url }))
-        
+        if(dbresult == 'error'){
+          reject(NextResponse.json({ url:null, error: 'Failed to save user information in database' }));
+        }else if(dbresult == 'success'){
+          resolve(NextResponse.json({ url: result.data[0].url }))
+        }else{
+          reject(NextResponse.json({ url:null, error: 'something went wrong' }));
+        }
       } catch (e) {
         debugger;
         reject(NextResponse.json({ url:null, error: 'Failed to generate image' }))
