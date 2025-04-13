@@ -73,13 +73,21 @@ async function generateImageBasedOnExisting(inputImagePath, userPrompt, outputIm
               }
             );
             console.log(output);
-            const tempDir = tmpdir();
-            const outputImagePath1 = join(tempDir, `output-${Date.now()}.png`);
+    //         const tempDir = tmpdir();
+    //         const outputImagePath1 = join(tempDir, `output-${Date.now()}.png`);
     
-    for (const [index, item] of Object.entries(output)) {
-      await writeFile(outputImagePath1, item);
-    }
-            return outputImagePath1;
+    // for (const [index, item] of Object.entries(output)) {
+    //   await writeFile(outputImagePath1, item);
+    // }
+    const imageUrls = [];
+    const imageUrl = output[0]; // adjust if structure is different
+  
+    const response = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+    const imageBuffer = Buffer.from(response.data);
+    
+    console.log('Buffer:', imageBuffer);
+
+            return imageBuffer;
     }
     catch(error)
     {
@@ -195,7 +203,6 @@ export async function POST(webRequest) {
             let processedImagePath = imageFile.filepath; // Start with the original path
             
             try {
-                debugger;
                 const imageBufferForUpload = await require('fs').promises.readFile(processedImagePath);
                 const uploadFilename = `${username}-${Date.now()}-user.png`;
                 userImageUrl = await uploadImageToSupabase(imageBufferForUpload, uploadFilename);
@@ -206,9 +213,9 @@ export async function POST(webRequest) {
                 if(outputpathurl == null){
                     return resolve(createErrorResponse('Failed to Generate image.'+ErrorMsg));
                 }
-                const imageBufferForUploadg = await require('fs').promises.readFile(outputpathurl);
+                //const imageBufferForUploadg = await require('fs').promises.readFile(outputpathurl);
                 const uploadFilenameg = `${username}-${Date.now()}-generated.png`;
-                const outputImageUrl = await uploadImageBufferToSupabase(imageBufferForUploadg, uploadFilenameg);
+                const outputImageUrl = await uploadImageBufferToSupabase(outputpathurl, uploadFilenameg);
                 await insertUserData({ username, gender, userimageurl: userImageUrl, outputimageurl: outputImageUrl });
                 resolve(NextResponse.json({ url: outputImageUrl }));
 
