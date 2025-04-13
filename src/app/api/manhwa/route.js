@@ -73,11 +73,13 @@ async function generateImageBasedOnExisting(inputImagePath, userPrompt, outputIm
               }
             );
             console.log(output);
-            for (const [index, item] of Object.entries(output)) {
-              console.log(index,item);
-              await writeFile(outputImagePath, item);
-            }
-            return outputImagePath;
+            const tempDir = tmpdir();
+            const outputImagePath1 = join(tempDir, `output-${Date.now()}.png`);
+    
+    for (const [index, item] of Object.entries(output)) {
+      await writeFile(outputImagePath1, item);
+    }
+            return outputImagePath1;
     }
     catch(error)
     {
