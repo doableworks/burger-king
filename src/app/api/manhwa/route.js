@@ -79,6 +79,9 @@ async function generateImageBasedOnExisting(inputImagePath, userPrompt, outputIm
     // for (const [index, item] of Object.entries(output)) {
     //   await writeFile(outputImagePath1, item);
     // }
+    if (!output || !output[0]) {
+        throw new Error("Replicate returned no output.");
+    }
     const imageUrls = [];
     const imageUrl = output[0]; // adjust if structure is different
   
