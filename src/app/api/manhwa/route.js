@@ -10,10 +10,12 @@ import fs from 'fs/promises';
 import sharp from 'sharp'; // Import the sharp library for image processing
 import Replicate from "replicate";
 import promptData from "./prompts.json"
+import { error } from 'console';
 
 const replicate = new Replicate({
   auth: process.env.REPLICATE_API_TOKEN,
 });
+let ErrorMsg = "";
 
 function getFullPrompt(style, gender) {
     const styleData = promptData.styles.find(s => s[style]);
@@ -85,6 +87,7 @@ async function generateImageBasedOnExisting(inputImagePath, userPrompt, outputIm
     }
     catch(error)
     {
+        ErrorMsg = error;
         return null;
     }
     
@@ -205,7 +208,7 @@ export async function POST(webRequest) {
                 }
                 const outputpathurl = await generateImageBasedOnExisting(userImageUrl,userprompt,processedImagePath);
                 if(outputpathurl == null){
-                    return resolve(createErrorResponse('Failed to Generate image.'));
+                    return resolve(createErrorResponse('Failed to Generate image.'+ErrorMsg));
                 }
                 const imageBufferForUploadg = await require('fs').promises.readFile(outputpathurl);
                 const uploadFilenameg = `${username}-${Date.now()}-generated.png`;
