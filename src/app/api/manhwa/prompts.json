@@ -1,0 +1,207 @@
+{
+    "styles": [
+      {
+        "K-Drama":{
+        "male":[
+            "Transform this man into a K-drama protagonist. Maintain his exact facial structure (jawline, nose, eye shape) but style him in a tailored beige trench coat over a black turtleneck. Soft cinematic lighting, neutral tones, and a slight misty effect. NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Render this man as a charming K-drama lead. Keep his unique features (focus on his smile and brow shape) but dress him in a stylish, slightly oversized knit sweater in a muted color (e.g., charcoal grey or deep blue). Background: a softly blurred cafe interior. Lighting: warm and inviting. NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Create a K-drama aesthetic for this man. Preserve his distinct traits (pay attention to his ear shape and hairline) and outfit him in a smart casual look: a well-fitting button-down shirt (light blue or white) under a dark-wash denim jacket. Setting: a vibrant Seoul street at dusk with soft bokeh. No changes to his core features.NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Imagine this man as a brooding K-drama second lead. Retain his specific facial characteristics (especially his gaze) but style him in a dark, slightly textured overcoat. Mood: slightly melancholic with soft, cool lighting. Background: a rainy city street at night.NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Portray this man in a lighthearted K-drama scene. Keep his original features (emphasize his cheekbones and chin) and dress him in a comfortable, slightly playful outfit like a pastel-colored hoodie under a light jacket. Setting: a sunny university campus with cherry blossoms in the background (softly blurred).NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Develop a sophisticated K-drama look for this man. Maintain his precise facial structure (focus on his profile) and dress him in a sharp, dark suit with a subtle pattern. Lighting: strong and directional, highlighting his features. Background: a modern office interior or a stylish bar.NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Visualize this man as a kind-hearted K-drama character. Keep his natural appearance (especially his eye expression) and style him in a warm, approachable outfit like a soft brown cardigan over a simple t-shirt. Setting: a cozy home interior with soft, diffused light.NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Transform this man into a charismatic K-drama idol. Preserve his unique facial features (pay attention to his lips and overall symmetry) and give him a trendy, slightly edgy outfit like a patterned shirt with a leather jacket. Background: a brightly lit stage or a stylish urban setting.NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Render this man as a reliable K-drama friend character. Maintain his key features (focus on his friendly smile) and dress him in comfortable, everyday clothes like a simple jacket and jeans. Setting: a familiar, casual location like a convenience store or a park.NO facial alterations—only refine skin texture and add subtle contouring for a polished look.",
+            "Create a determined K-drama character out of this man. Keep his exact facial structure (emphasize his strong jawline) and style him in a practical yet stylish outfit like a work jacket or a sturdy coat. Setting: a slightly gritty but atmospheric urban environment.NO facial alterations—only refine skin texture and add subtle contouring for a polished look."
+          ],
+        "female":[
+            "Convert this woman into a K-drama heroine. Preserve her natural features (especially her eye shape and lip contour) but give her sleek black hair with a middle part and a cream-colored wool coat. Lighting: warm golden-hour glow. Keep her expression serene and elegant.",
+            "Render this woman as a charming K-drama lead. Keep her unique features (focus on her smile and eye expression) but style her in a soft, slightly oversized knit sweater in a pastel shade (e.g., baby pink or light blue). Background: a softly blurred cafe interior with delicate details. Lighting: warm and inviting.Keep her expression serene and elegant.",
+            "Create a K-drama aesthetic for this woman. Preserve her distinct traits (pay attention to her cheekbones and jawline) and outfit her in a smart casual look: a stylish blouse (silk or chiffon in a light color) paired with high-waisted trousers or a flowy skirt. Setting: a vibrant Seoul street with soft bokeh and subtle city lights. No changes to her core features.Keep her expression serene and elegant.",
+            "Imagine this woman as a determined K-drama second lead. Retain her specific facial characteristics (especially her sharp gaze) but style her in a sophisticated, slightly edgy outfit like a tailored blazer over a dark top. Mood: slightly cool and confident lighting. Background: a modern office setting or a stylish art gallery.Keep her expression serene and elegant.",
+            "Portray this woman in a lighthearted K-drama scene. Keep her original features (emphasize her bright eyes and smile) and dress her in a comfortable, slightly playful outfit like an oversized hoodie or a cute dress with a cardigan. Setting: a sunny university campus with blooming flowers in the background (softly blurred).Keep her expression serene and elegant.",
+            "Develop a sophisticated K-drama look for this woman. Maintain her precise facial structure (focus on her elegant profile) and dress her in a chic, well-fitting dress in a neutral or pastel color. Lighting: soft and flattering, highlighting her features. Background: a high-end restaurant or a formal event.Keep her expression serene and elegant.",
+            "Visualize this woman as a kind-hearted K-drama character. Keep her natural appearance (especially her gentle expression) and style her in a warm, approachable outfit like a cozy sweater or a comfortable dress in earthy tones. Setting: a cozy home interior with soft, diffused light and perhaps some plants.Keep her expression serene and elegant.",
+            "Transform this woman into a charismatic K-drama idol. Preserve her unique facial features (pay attention to her captivating eyes and smile) and give her a trendy, slightly glamorous outfit like a stylish top with fashionable accessories. Background: a brightly lit stage or a dynamic urban setting at night.Keep her expression serene and elegant.",
+            "Render this woman as a reliable K-drama friend character. Maintain her key features (focus on her warm and friendly demeanor) and dress her in comfortable, everyday clothes like a casual jacket and jeans or a simple dress. Setting: a familiar, relaxed location like a park or a small neighborhood cafe.Keep her expression serene and elegant.",
+            "Create a resilient K-drama character out of this woman. Keep her exact facial structure (emphasize her strong features) and style her in a practical yet stylish outfit like a trench coat or a well-worn jacket. Setting: a slightly dramatic urban environment, perhaps with a hint of rain or wind.Keep her expression serene and elegant."
+          ],
+        "backgrounds": [
+            "Bustling City Streets at Night (neon signs, street food stalls, glowing shopfronts)",
+            "Trendy Cafes (aesthetic interiors, soft lighting, stylish furniture)",
+            "Convenience Stores (bright fluorescent lights, shelves of snacks)",
+            "University Campuses (green lawns, modern buildings, libraries)",
+            "Apartment Rooftops (city views, laundry lines, rooftop gardens)",
+            "Arcades & Entertainment Districts (bright lights, claw machines, karaoke booths)",
+            "Public Transportation (subway stations, buses)",
+            "Modern Apartments/Homes (stylish interiors, large windows)",
+            "Office Buildings (sleek lobbies, open workspaces, meeting rooms)",
+            "Cherry Blossom Tree Alleys/Parks (pink and white blossoms)",
+            "Beaches (sandy shores, crashing waves, sunsets)",
+            "Mountains & Hiking Trails (scenic views, lush greenery)",
+            "Traditional Korean Gardens (ponds, pavilions, stone paths)",
+            "Rural Landscapes (rice paddies, rolling hills, traditional houses)",
+            "School Settings (High School, University - classrooms, hallways, cafeterias)",
+            "Hospitals (clean, sterile environments)",
+            "Restaurants (various types - cozy, upscale)",
+            "Karaoke Rooms (Noraebang - bright, lively)",
+            "Game Centers (PC Bangs - dimly lit, filled with computers)",
+            "Film Sets/Production Studios"
+          ]
+        },
+      
+        "K-Pop":{
+    "male": [
+        "Style this man as a K-pop idol. Retain his bone structure but add platinum blonde hair styled in a messy undercut, silver ear cuffs, and a cropped black leather jacket. Dramatic stage lighting with purple/blue neon highlights.",
+        "Transform this man into a charismatic K-pop star. Keep his original facial features but give him vibrant red hair styled with a slightly windswept look, multiple piercings (ear and eyebrow), and a bold, patterned streetwear outfit. Dynamic lighting with strong color contrasts.",
+        "Render this man as a soft and dreamy K-pop vocalist. Maintain his natural face shape but give him fluffy pastel pink hair, subtle eyeliner, and an oversized, light-colored sweater with delicate accessories (e.g., a simple necklace). Soft, diffused lighting with a focus on his eyes.",
+        "Create a cool and edgy K-pop rapper aesthetic for this man. Preserve his unique facial structure but style him with dark, textured hair partially covering his forehead, a silver chain, and a stylish bomber jacket with interesting details. Moody, low-key lighting with sharp highlights.",
+        "Imagine this man as a playful and energetic K-pop dancer. Keep his original features but give him bright blue hair styled in a slightly messy way, colorful makeup accents (e.g., under-eye glitter), and a vibrant, layered dance outfit. Energetic stage lighting with moving spotlights.",
+        "Develop a sophisticated and mature K-pop idol look for this man. Maintain his defined features but style his dark hair neatly with a side parting, add subtle, natural-looking makeup, and dress him in a tailored suit with a unique fabric or color. Elegant, focused lighting.",
+        "Visualize this man as a mysterious and captivating K-pop member. Keep his distinct facial characteristics but give him long, dark hair partially obscuring his face, dark eyeliner, and a dark, flowing outfit with interesting textures. Atmospheric, shadowy lighting.",
+        "Transform this man into a charismatic K-pop leader. Preserve his strong facial features but style his hair in a confident and slightly tousled manner, add subtle but stylish accessories (e.g., rings), and dress him in a commanding stage outfit. Powerful, direct lighting.",
+        "Render this man as a visually striking K-pop visual member. Maintain his symmetrical features but give him a striking hair color (e.g., silver or a vibrant two-tone), unique contact lenses, and an eye-catching, fashion-forward outfit. Bold and artistic lighting.",
+        "Create a retro-inspired K-pop look for this man. Keep his original face shape but style his hair with a vintage flair (e.g., a pompadour or a textured middle part), add subtle retro makeup touches, and dress him in a stylish outfit reminiscent of past K-pop eras."
+      ],
+      "female": [
+        "Transform this woman into a K-pop star. Keep her original face shape but give her ash-brown wolf-cut hair, glitter eyelids, and a pastel pink crop top with sequin shorts. Lighting: vibrant holographic reflections.",
+        "Style this woman as a charismatic K-pop idol. Retain her bone structure but give her long, wavy blonde hair with face-framing highlights, bold winged eyeliner, and a stylish streetwear outfit with unique accessories. Dynamic stage lighting with bright, contrasting colors.",
+        "Render this woman as a soft and ethereal K-pop vocalist. Maintain her natural features but give her long, flowing pastel purple hair, subtle shimmering eyeshadow, and an elegant, sheer gown. Soft, dreamy lighting with a focus on her delicate features.",
+        "Create a cool and edgy K-pop rapper aesthetic for this woman. Preserve her unique facial structure but style her with dark hair in a high ponytail with braided accents, strong graphic eyeliner, and a stylish, dark-colored outfit with chains or buckles. Moody, low-key lighting with sharp accents.",
+        "Imagine this woman as a playful and energetic K-pop dancer. Keep her original features but give her bright orange hair styled in space buns, colorful eye makeup, and a vibrant, layered dance costume. Energetic, colorful stage lighting with movement trails.",
+        "Develop a sophisticated and mature K-pop idol look for this woman. Maintain her defined features but style her dark hair in a sleek updo, add subtle, elegant makeup, and dress her in a tailored pantsuit or a chic dress. Elegant, focused lighting.",
+        "Visualize this woman as a mysterious and captivating K-pop member. Keep her distinct facial characteristics but give her long, dark hair with subtle highlights, dark lipstick, and a dramatic, flowing outfit with intricate details. Atmospheric, shadowy lighting with hints of light.",
+        "Transform this woman into a charismatic K-pop leader. Preserve her strong facial features but style her hair in a confident and stylish way (e.g., a sleek bob or a high ponytail), add bold earrings, and dress her in a commanding stage outfit. Powerful, direct lighting.",
+        "Render this woman as a visually striking K-pop visual member. Maintain her symmetrical features but give her a striking hair color (e.g., silver or a vibrant ombre), unique eye makeup with bold lashes, and an eye-catching, fashion-forward outfit. Bold and artistic lighting with interesting textures.",
+        "Create a retro-inspired K-pop look for this woman. Keep her original face shape but style her hair with a vintage wave or a stylish updo, add retro-inspired makeup (e.g., bold lips, defined eyeliner), and dress her in an outfit reminiscent of past K-pop eras."
+      ],
+        "backgrounds": [
+            "Elaborate Music Video Sets (thematic, colorful, often with multiple changing backdrops)",
+            "Dance Studios (mirrored walls, dynamic lighting, showcasing choreography)",
+            "Rooftops with City Views (Seoul skyline, often at night with neon lights)",
+            "Trendy Urban Streets (fashionable districts like Hongdae or Gangnam)",
+            "Unique Architectural Spaces (modern art museums, design centers, stylish buildings)",
+            "Fantasy or Surreal Landscapes (CGI-enhanced or creatively staged environments)",
+            "Historical Palaces and Traditional Villages (for a cultural or dramatic contrast)",
+            "School or University Settings (classrooms, sports fields, auditoriums - often stylized)",
+            "Abstract or Minimalist Sets (clean lines, bold colors, focus on performance)",
+            "Nature-Oriented Locations (beaches, forests, fields - often with a vibrant aesthetic)",
+            "Runways or Fashion Show-Inspired Sets (glamorous and stylish)",
+            "Industrial or Edgy Locations (abandoned buildings, warehouses with graffiti)",
+            "Cafes and Themed Restaurants (aesthetically pleasing and character-focused)",
+            "Art Galleries or Exhibition Spaces (clean, modern backgrounds with artwork)",
+            "Vehicles (cars, buses, trains - often incorporated into choreography or storytelling)",
+            "Symbolic or Thematic Props (large-scale art installations, unique furniture)",
+            "Concert Stages (with dynamic lighting and visual effects)",
+            "Underground or Alternative Spaces (subway stations, hidden alleys)",
+            "Retro or Vintage-Inspired Sets (throwback aesthetics, old-school vibes)",
+            "Dreamlike or Ethereal Settings (soft lighting, flowing fabrics, hazy atmospheres)"
+          ]
+        },
+        
+      
+        "K-Foodie":{
+"male": [
+        "Turn this man into a Korean street food enthusiast. Preserve his exact face but dress him in a navy hoodie with rolled sleeves, holding a sizzling hotteok (pancake). Background: a bustling Gwangjang Market stall at dusk.",
+        "Render this man as a passionate Korean home cook. Keep his unique features but style him in a comfortable apron, stirring a pot of jjigae (stew) with a focused expression. Background: a warm, slightly cluttered home kitchen.",
+        "Create a K-foodie cafe owner aesthetic for this man. Preserve his distinct traits and outfit him in a neat apron over a casual shirt, proudly presenting a plate of beautifully arranged bingsu (shaved ice dessert). Background: a trendy, minimalist cafe.",
+        "Imagine this man as a late-night Korean snack lover. Retain his specific facial characteristics but dress him in a comfortable t-shirt, happily biting into a skewer of tteokbokki (spicy rice cakes). Background: a brightly lit convenience store eating area.",
+        "Portray this man in a lively Korean BBQ setting. Keep his original features and style him in a casual shirt, enthusiastically grilling meat with tongs. Background: a smoky Korean BBQ restaurant with various banchan (side dishes) on the table.",
+        "Develop a sophisticated K-foodie diner. Maintain his precise facial structure and dress him in a clean-cut uniform, carefully plating a dish of bibimbap (mixed rice). Background: a retro-style Korean diner with warm lighting.",
+        "Visualize this man as a traditional Korean market vendor. Keep his natural appearance and style him in a comfortable, slightly worn outfit, proudly displaying fresh produce or homemade kimchi. Background: a vibrant traditional market stall.",
+        "Transform this man into a Korean fusion food creator. Preserve his unique facial features and give him a stylish chef's jacket, presenting an innovative dish with a modern twist. Background: a sleek, contemporary restaurant kitchen.",
+        "Render this man as a relaxed picnic enjoyer by the Han River. Maintain his key features and dress him in casual outdoor wear, happily holding a container of kimbap (seaweed rice rolls). Background: a sunny scene by the Han River with other picnickers.",
+        "Create a determined Korean food delivery rider. Keep his exact facial structure and style him in a delivery uniform, carrying a container of steaming hot jjajangmyeon (black bean noodles). Background: a slightly rainy Seoul street at night."
+      ],
+      "female": [
+        "Convert this woman into a K-foodie vlogger. Maintain her facial features but style her in a pastel apron over a striped tee, gripping chopsticks with kimchi pancakes. Background: a brightly lit studio kitchen with vlogging equipment.",
+        "Render this woman as a passionate baker of Korean desserts. Keep her unique features and style her with her hair tied back, dusting injeolmi (rice cakes with soybean powder). Background: a cozy bakery filled with sweet aromas.",
+        "Create a K-foodie exploring a traditional market. Preserve her distinct traits and outfit her in comfortable clothes, excitedly pointing at a colorful display of fresh seafood. Background: a bustling fish market with various vendors.",
+        "Imagine this woman as a home cook preparing a family meal. Retain her specific facial characteristics and style her in a casual outfit, stirring a large pot of miyeok guk (seaweed soup). Background: a warm, inviting home kitchen.",
+        "Portray this woman enjoying street food with friends. Keep her original features and dress her in trendy casual wear, laughing while holding a cheesy corn dog. Background: a lively street food alley at night.",
+        "Develop a sophisticated K-foodie restaurant critic. Maintain her precise facial structure and dress her in a stylish outfit, thoughtfully examining a beautifully plated Korean dish. Background: an upscale Korean fine dining restaurant.",
+        "Visualize this woman as a maker of traditional Korean beverages. Keep her natural appearance and style her in comfortable attire, carefully pouring makgeolli (rice wine) into a bowl. Background: a rustic traditional brewery.",
+        "Transform this woman into a K-foodie sharing her culinary creations online. Preserve her unique facial features and style her in a cute outfit, presenting a colorful bowl of bibimbap. Background: a brightly lit tabletop food photography setup.",
+        "Render this woman enjoying a picnic with Korean snacks. Maintain her key features and dress her in comfortable outdoor wear, happily reaching for a piece of fruit. Background: a scenic park with a spread of Korean treats.",
+        "Create a determined owner of a popular kimchi stew restaurant. Keep her exact facial structure and style her in a practical apron, stirring a bubbling pot of kimchi jjigae. Background: a busy, aromatic restaurant kitchen."
+      ],
+       "backgrounds": [
+            "Bustling Traditional Markets (Gwangjang, Namdaemun) - overflowing with colorful food stalls, vendors, and people",
+            "Cozy and Rustic Korean Restaurants (old wooden tables, steaming pots, banchan displays)",
+            "Modern and Trendy Korean Fusion Eateries (sleek design, artistic plating, unique dishes)",
+            "Street Food Stalls at Night (glowing lights, sizzling sounds, variety of snacks like tteokbokki, skewers, hotteok)",
+            "Kitchens - both home kitchens (warm, cluttered, family-style) and professional restaurant kitchens (stainless steel, busy atmosphere)",
+            "Picnics by the Han River (spread-out blankets, various containers of delicious food, scenic river views)",
+            "Convenience Store Eating Areas (characters enjoying instant ramen, kimbap, and other quick meals)",
+            "Upscale Korean BBQ Restaurants (grilling meat, sizzling sounds, elegant settings)",
+            "Noodle Shops (Janchi Guksu, Bibim Guksu) - bustling with slurping sounds and the aroma of broth",
+            "Cafes with Korean Desserts (bingsu, ddeok, traditional sweets) - aesthetically pleasing environments",
+            "Home Dining Tables (family meals with numerous side dishes, warm lighting)",
+            "Cooking Class Settings (ingredients laid out, characters learning to prepare Korean dishes)",
+            "Food Festivals and Events (crowds of people sampling various Korean foods)",
+            "Interiors of Makgeolli (Korean rice wine) Bars (traditional decor, earthenware pots)",
+            "Back Alleys with Hidden Gem Restaurants (small, local eateries with unique flavors)",
+            "University Cafeterias with Affordable and Popular Korean Dishes",
+            "Seafood Markets and Restaurants (fresh catches, lively atmosphere, sounds of the ocean)",
+            "Fermentation Cellars (Onggi pots, traditional methods of kimchi and gochujang making)",
+            "Snack Carts and Trucks (offering specific street foods like gyeranppang or sundae)",
+            "Rooftop Gatherings with Korean Delivery Food (characters enjoying jjajangmyeon or fried chicken with city views)"
+          ]
+        },
+        
+      
+        "K-Manhwa":{
+"male": [
+        "Reimagine this man in a Korean webtoon style. Keep his jawline and eye shape identical but render with sharp black line art, mint-green hair (tousled), and a denim jacket with comic-style shading. Add subtle blush on his cheeks and sharp highlights in his eyes.",
+        "Render this man as a cool Manhwa protagonist. Maintain his unique nose and brow shape but draw with clean line art, dark blue messy hair with lighter streaks, and a slightly oversized hoodie. Use soft cel-shading and subtle gradients for depth.",
+        "Create a charming Manhwa character from this man. Preserve his distinct smile and ear shape but illustrate with smooth line work, soft brown hair with a side part, and a casual button-down shirt. Apply a pastel color palette and subtle rim lighting.",
+        "Imagine this man as a brooding Manhwa second lead. Retain his specific gaze and lip shape but depict with sharp, angular line art, dark black hair with a few stray strands, and a dark, textured jacket. Use dramatic shadows and cool color tones.",
+        "Portray this man in a lighthearted Manhwa scene. Keep his original cheekbones and chin but draw with lively line art, bright orange hair styled playfully, and a comfortable, slightly oversized t-shirt. Apply vibrant pastel colors and dynamic motion lines.",
+        "Develop a sophisticated Manhwa look for this man. Maintain his precise profile and hairline but illustrate with elegant line work, neat dark hair with subtle highlights, and a well-fitting blazer. Use a refined color palette and subtle cross-hatching for texture.",
+        "Visualize this man as a kind-hearted Manhwa friend character. Keep his natural eye expression and mouth shape but render with gentle line art, soft brown hair with a slightly messy fringe, and a comfortable sweater. Use warm, soft lighting and a muted color scheme.",
+        "Transform this man into a charismatic Manhwa idol. Preserve his striking features and overall face structure but draw with bold line art, vibrant pink hair styled dynamically, and a stylish, slightly edgy jacket. Apply bright, contrasting colors and sharp highlights.",
+        "Render this man as a visually striking Manhwa character. Maintain his symmetrical features but depict with unique line variations, silver-grey hair with a dramatic style, and a fashion-forward outfit. Use a stylized color palette and bold shadows.",
+        "Create a determined Manhwa character out of this man. Keep his strong jawline and brow but illustrate with firm, confident line art, dark black hair styled neatly, and a practical yet stylish coat. Use a slightly gritty color palette and strong directional lighting."
+      ],
+      "female": [
+        "Transform this woman into a Manhwa character. Preserve her mole and eye shape but draw with thick outline art, coral-pink wavy hair, and a oversized sweater. Add subtle sparkle to her eyes and soft blush on her cheeks.",
+        "Reimagine this woman in a Korean webtoon style. Keep her lip shape and nose but render with clean black line art, long, flowing lavender hair, and a stylish denim jacket. Use a pastel color palette and soft cel-shading.",
+        "Render this woman as a cool Manhwa protagonist. Maintain her unique cheekbones and chin but draw with sharp line work, short, dark blue hair with a bold hair clip, and a fitted top. Apply subtle gradients and sharp highlights.",
+        "Create a charming Manhwa character from this woman. Preserve her distinct smile and ear shape but illustrate with smooth line art, soft blonde hair with a gentle wave, and a light-colored cardigan. Use warm, inviting lighting and a delicate color palette.",
+        "Imagine this woman as a determined Manhwa second lead. Retain her specific gaze and brow shape but depict with strong, confident line art, long, straight black hair, and a tailored blazer. Use cool color tones and sharp shadows.",
+        "Portray this woman in a lighthearted Manhwa scene. Keep her original eye shape and mouth but draw with lively line art, bright red hair styled in pigtails, and a cute, slightly oversized dress. Apply vibrant colors and dynamic expressions.",
+        "Develop a sophisticated Manhwa look for this woman. Maintain her precise face shape and hairline but illustrate with elegant line work, sleek black bob, and a stylish blouse. Use a refined color palette and subtle details.",
+        "Visualize this woman as a kind-hearted Manhwa friend character. Keep her natural eye expression and mouth but render with gentle line art, soft brown hair with a side braid, and a comfortable sweater. Use warm, soft lighting and a muted color scheme.",
+        "Transform this woman into a charismatic Manhwa idol. Preserve her striking features and overall face structure but draw with bold line art, vibrant pink and blue two-toned hair, and a fashionable stage outfit. Apply bright, contrasting colors and dynamic lighting.",
+        "Render this woman as a visually striking Manhwa character. Maintain her symmetrical features but depict with unique line variations, silver hair styled in an intricate updo, and an eye-catching outfit. Use a stylized color palette and bold accessories."
+      ],
+      "backgrounds": [
+            "Detailed Cityscapes (often Seoul) - showcasing modern architecture, bustling streets, and iconic landmarks (N Seoul Tower, Han River)",
+            "University Campuses - focusing on specific departments, libraries, dorm rooms, and student gathering spots",
+            "High School Settings - classrooms, hallways, rooftops, sports fields, often with dramatic lighting",
+            "Character's Homes/Apartments - reflecting their personality and social status (from cramped studios to luxurious penthouses)",
+            "Workplaces - offices, studios, shops, cafes, each with distinct designs and atmospheres",
+            "Entertainment Venues - arcades, karaoke rooms (noraebang), PC bangs, movie theaters",
+            "Restaurants and Cafes - from trendy and aesthetic to cozy and traditional",
+            "Parks and Green Spaces - often used for romantic or reflective scenes, cherry blossom trees are a classic",
+            "Specific Neighborhoods - highlighting the unique vibe of areas like Hongdae, Itaewon, or Gangnam",
+            "Fantasy or Historical Settings (for specific genres) - ancient palaces, mythical realms, etc.",
+            "Transportation Hubs - subway stations, bus stops, airports, often depicting movement and encounters",
+            "Rooftops - offering dramatic views and a sense of escape",
+            "Interiors with Dramatic Lighting - shadows and highlights to emphasize mood and character emotions",
+            "Close-ups of Specific Locations - a character's desk, a cluttered room, a meaningful spot",
+            "Stylized Abstract Backgrounds - using colors and shapes to convey emotion or transition scenes",
+            "Online/Digital Spaces - chat windows, social media feeds, game interfaces (for modern stories)",
+            "Convenience Stores - a frequent and relatable setting for everyday life",
+            "Hospitals - clean, sterile environments often used for dramatic or emotional scenes",
+            "Music Studios or Performance Stages (for idol or music-themed manhwa)",
+            "Dreamlike or Surreal Spaces - for psychological or fantasy elements"
+          ]
+        }
+      }
+    ],
+    "presets": {
+      "facial_preservation": "Maintain exact jawline, nose shape, and unique identifiers (moles/scars)",
+      "forbidden_elements": ["anime eyes", "unnatural proportions", "style inconsistency"]
+    }
+}

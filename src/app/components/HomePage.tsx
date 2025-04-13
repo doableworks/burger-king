@@ -3,9 +3,47 @@ import styles from "../../styles/pages/home.module.scss";
 import HeaderLogo from "../img/home_logo.png";
 import HomeBanner from "../img/home_banner.png";
 import DownArrow from "../img/down_arrow.png";
+import React, { useRef } from 'react';
 
 export default function HomePage({ onNext }: { onNext: () => void }) {
 
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const styleINputRef = useRef<HTMLInputElement>(null);
+
+  const handleUploadClick = async () => {
+    const fileInput = fileInputRef.current;
+    const styleInput = styleINputRef.current;
+    const formData = new FormData();
+
+    if (fileInput?.files?.[0]) {
+      formData.append('image', fileInput.files[0]);
+      formData.append('username', 'Manikandan');
+      formData.append('gender', 'Male');
+      formData.append('style',styleInput?.value || "K-Pop")
+
+      const res = await fetch('/api/manhwa', {
+        method: 'POST',
+        body: formData,
+      });
+
+      console.log(res);
+      if (!res.ok) {
+        const errorData = await res.json().catch(() => ({}));
+        console.error('Server Error:', res.status, errorData);
+        alert(`Error ${res.status}: ${errorData.error || 'Unknown error'}`);
+        return;
+      }
+      const data = await res.json();
+      console.log(data);
+    } else {
+      alert('Please select an image file.');
+    }
+  };
+
+  // Function to trigger the file input dialog
+  const handleOpenFileDialog = () => {
+    fileInputRef.current?.click();
+  };
     
     return (
       <>
@@ -28,6 +66,21 @@ export default function HomePage({ onNext }: { onNext: () => void }) {
             <h2 className={styles.home_avatar_1}>Unleash your <br/> avatar, K-STYLE!</h2>
             <h2 className={styles.home_avatar_2}>Unleash your <br/> avatar, K-STYLE!</h2>
           </div>
+          <input type="text" ref={styleINputRef} />
+          <input
+        type="file"
+        id="image"
+        name="image"
+        ref={fileInputRef}
+        style={{ display: 'none' }} // Hide the default file input
+        onChange={() => {}} // You can add logic here if needed on file selection
+      />
+      <button type="button" onClick={handleOpenFileDialog}>
+        Select Image
+      </button>
+      <button type="button" onClick={handleUploadClick}>
+        Upload Image
+      </button>
 
           <form className={`${styles.form}`}>
 				<div className={styles.formGroupSection}>
