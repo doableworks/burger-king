@@ -57,30 +57,37 @@ export const config = {
 };
 
 async function generateImageBasedOnExisting(inputImagePath, userPrompt, outputImagePath) {
-    const output = await replicate.run(
-      model,
-      {
-        input: {
-            image: inputImagePath,
-            width: 1024,
-            height: 1024,
-            prompt: userPrompt,
-            scheduler: "KarrasDPM",
-            num_outputs: 1,
-            guidance_scale: 7.5,
-            apply_watermark: true,
-            negative_prompt: "worst quality, low quality",
-            prompt_strength: 0.8,
-            num_inference_steps: 60
-          }
-        }
-      );
-      console.log(output);
-      for (const [index, item] of Object.entries(output)) {
-        console.log(index,item);
-        await writeFile(outputImagePath, item);
-      }
-      return outputImagePath;
+    try{
+        const output = await replicate.run(
+            model,
+            {
+              input: {
+                  image: inputImagePath,
+                  width: 1024,
+                  height: 1024,
+                  prompt: userPrompt,
+                  scheduler: "KarrasDPM",
+                  num_outputs: 1,
+                  guidance_scale: 7.5,
+                  apply_watermark: true,
+                  negative_prompt: "worst quality, low quality",
+                  prompt_strength: 0.8,
+                  num_inference_steps: 60
+                }
+              }
+            );
+            console.log(output);
+            for (const [index, item] of Object.entries(output)) {
+              console.log(index,item);
+              await writeFile(outputImagePath, item);
+            }
+            return outputImagePath;
+    }
+    catch(error)
+    {
+        return null;
+    }
+    
 }
 
 // Utility function for error responses
@@ -197,6 +204,9 @@ export async function POST(webRequest) {
                     return resolve(createErrorResponse('Failed to store user image in file server.'));
                 }
                 const outputpathurl = await generateImageBasedOnExisting(userImageUrl,userprompt,processedImagePath);
+                if(outputpathurl == null){
+                    return resolve(createErrorResponse('Failed to Generate image.'));
+                }
                 const imageBufferForUploadg = await require('fs').promises.readFile(outputpathurl);
                 const uploadFilenameg = `${username}-${Date.now()}-generated.png`;
                 const outputImageUrl = await uploadImageBufferToSupabase(imageBufferForUploadg, uploadFilenameg);
