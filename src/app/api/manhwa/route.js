@@ -10,7 +10,6 @@ import fs from 'fs/promises';
 import sharp from 'sharp'; // Import the sharp library for image processing
 import Replicate from "replicate";
 import promptData from "./prompts.json"
-import { error } from 'console';
 
 const replicate = new Replicate({
   auth: process.env.REPLICATE_API_TOKEN,
@@ -46,12 +45,7 @@ const UserFileFolder = process.env.USER_FILE_FOLDER;
 const OutputFileFolder = process.env.OUTPUT_FILE_FOLDER;
 const TableName = process.env.TABLE_NAME;
 const model = process.env.ModelName;
-// const OpenAIApiKey = process.env.OPENAI_API_KEY;
-// const OutputFileSize = process.env.OUTPUT_FILE_SIZE;
-// const MAX_IMAGE_SIZE_BYTES = 4 * 1024 * 1024; // 4MB limit
-// const PROMpT = process.env.PROMPT;
 
-// Disable body parsing
 export const config = {
     api: {
         bodyParser: false,

@@ -8,17 +8,19 @@ import React, { useRef } from 'react';
 export default function HomePage({ onNext }: { onNext: () => void }) {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const styleINputRef = useRef<HTMLInputElement>(null);
+  const styleINputRef = useRef<HTMLSelectElement>(null);
+  const genderINputRef = useRef<HTMLSelectElement>(null);
 
   const handleUploadClick = async () => {
     const fileInput = fileInputRef.current;
     const styleInput = styleINputRef.current;
+    const genderInput = styleINputRef.current;
     const formData = new FormData();
 
     if (fileInput?.files?.[0]) {
       formData.append('image', fileInput.files[0]);
       formData.append('username', 'Manikandan');
-      formData.append('gender', 'Male');
+      formData.append('gender', genderInput?.value || "Male");
       formData.append('style',styleInput?.value || "K-Pop")
 
       const res = await fetch('/api/manhwa', {
@@ -66,7 +68,16 @@ export default function HomePage({ onNext }: { onNext: () => void }) {
             <h2 className={styles.home_avatar_1}>Unleash your <br/> avatar, K-STYLE!</h2>
             <h2 className={styles.home_avatar_2}>Unleash your <br/> avatar, K-STYLE!</h2>
           </div>
-          <input type="text" ref={styleINputRef} />
+          <select ref={styleINputRef}>
+            <option>K-Drama</option>
+            <option>K-Pop</option>
+            <option>K-Foodie</option>
+            <option>K-Manhwa</option>
+          </select>
+          <select ref={genderINputRef}>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
           <input
         type="file"
         id="image"
