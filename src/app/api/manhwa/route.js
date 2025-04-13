@@ -54,6 +54,10 @@ export const config = {
 
 async function generateImageBasedOnExisting(inputImagePath, userPrompt, outputImagePath) {
     try{
+        if (!process.env.REPLICATE_API_TOKEN) {
+            throw new Error("REPLICATE_API_TOKEN is not defined. Check Vercel environment variables.");
+          }
+          
         const output = await replicate.run(
             model,
             {
